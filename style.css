@@ -1,0 +1,7 @@
+.intro {
+    background-color: rgb(173, 201, 253);
+    padding: 2em;
+}
+.intro>header>* {
+    size: 2em;
+}
