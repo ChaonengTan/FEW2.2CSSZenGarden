@@ -1,7 +1,70 @@
-.intro {
-    background-color: rgb(173, 201, 253);
-    padding: 2em;
+/* general */
+body, h1, h2, h3 {
+	margin: 0; 
+	padding: 0;
+    font-family: fantasy;
 }
-.intro>header>* {
-    size: 2em;
+body {
+    background-color: #FDF6A7;
+}
+/* banner */
+.intro>header[role] {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+    padding: 3em;
+    background-image: url('./images/zenGarden.png');
+    color: white;
+    font-size: 1.5em;
+    align-items: center;
+}
+.intro>header>h1 {
+    font-size: 3em;
+}
+/* main */
+.summary, .preamble, .explanation, .participation, .benefits, .requirements {
+    margin: 0 35vw 0 5vw;
+}
+.summary {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 1.3em;
+}
+h3 {
+    font-size: 1.5em;
+    margin: 1em 0;
+}
+/* footer */
+.requirements>p:last-child {
+    background: url('./images/woodsignbg.png') no-repeat center;
+    background-size: 85vw 25vh;
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+}
+.requirements>p:last-child>a {
+    margin-left: .2em;
+    color: white;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #7B835F;
+}
+footer>* {
+    margin: 0 2px;
+    color: white;
+}
+/* sidebar */
+.sidebar {
+    margin: 43vh 5vw 0 0;
+	position: absolute; 
+	top: 0; 
+	right: 0;
 }
