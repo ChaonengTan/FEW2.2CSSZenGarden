@@ -21,9 +21,18 @@ body {
 .intro>header>h1 {
     font-size: 3em;
 }
+.intro>.summary a {
+    border: solid #c4bb69 2px;
+    background-color: #fdf59a;
+    color: black;
+    margin-left: 3px;
+    padding: 5px 8px 0 8px;
+    font-size: .7em;
+}
 /* main */
 .summary, .preamble, .explanation, .participation, .benefits, .requirements {
     margin: 0 35vw 0 5vw;
+    border-bottom: solid 3px black;
 }
 .summary {
     font-style: italic;
@@ -33,12 +42,13 @@ body {
 h3 {
     font-size: 1.5em;
     margin: 1em 0;
+    text-decoration: underline;
 }
 /* footer */
 .requirements>p:last-child {
     background: url('./images/woodsignbg.png') no-repeat center;
     background-size: 85vw 25vh;
-    width: 100vw;
+    width: 90vw;
     height: 25vh;
     display: flex;
     flex-direction: row;
@@ -67,6 +77,14 @@ footer>* {
 	position: absolute; 
 	top: 0; 
 	right: 0;
+}
+.sidebar>.wrapper>div {
+    border: solid #8D8451 3px;
+    padding: 2em;
+    margin-top: 2em;
+}
+.sidebar>.wrapper h3 {
+    text-decoration: underline;
 }
 .sidebar ul {
     list-style-type: none;
