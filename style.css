@@ -14,6 +14,7 @@ body {
     margin-bottom: 2em;
     padding: 3em;
     background-image: url('./images/zenGarden.png');
+    background-attachment: fixed;
     color: white;
     font-size: 1.5em;
     align-items: center;
