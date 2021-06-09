@@ -33,7 +33,14 @@ body {
 /* main */
 .summary, .preamble, .explanation, .participation, .benefits, .requirements {
     margin: 0 35vw 0 5vw;
-    border-bottom: solid 3px black;
+    background: url('./images/textDivider.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 4em;
+}
+.requirements {
+    background: none;
+    padding-bottom: 1em;
 }
 .summary {
     font-style: italic;
@@ -66,7 +73,8 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    background-color: #7B835F;
+    background: linear-gradient(.25turn, #FDF6A7, #7B835F);
+    padding-top: .2em;
 }
 footer>* {
     margin: 0 2px;
