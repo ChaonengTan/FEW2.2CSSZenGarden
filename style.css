@@ -82,14 +82,19 @@ footer>* {
 }
 /* sidebar */
 .sidebar {
-    margin: 43vh 5vw 0 0;
+    margin: 43vh 3vw 0 0;
 	position: absolute; 
 	top: 0; 
 	right: 0;
 }
+.sidebar ul {
+    display: grid;
+    grid-template-columns: repeat(2, 12em);
+}
 .sidebar>.wrapper>div {
     border: solid #8D8451 3px;
     padding: 2em;
+    padding-right: 1em;
     margin-top: 2em;
 }
 .sidebar>.wrapper h3 {
